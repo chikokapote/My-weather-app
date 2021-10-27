@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/e5872f2258.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card" style="width: 500px">
+        <img src="images/sky.jpg" alt="Sky and Ocean" class="image" />
+        <div class="card-body">
+          <form class="search-form" id="search-form">
+            <div class="form-group">
+              <input
+                type="search"
+                class="form-control"
+                id="city-search"
+                aria-describedby="TextHelp"
+                placeholder="City"
+              />
+            </div>
+            <button value="search" id="search-button" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+            <button value="search" id="current-location-button" type="click">
+              current city
+            </button>
+          </form>
+          <h1>26°c <i class="far fa-sun"></i></h1>
+          <h2 id="date"></h2>
+          <ul>
+            <li class="thur">24°c <i class="fas fa-cloud"></i> Thur</li>
+            <li class="fri">24°c <i class="fa fa-cloud"></i> Fri</li>
+            <li class="sat">25°c <i class="far fa-sun"></i> Sat</li>
+            <li class="sun">25°c <i class="far fa-sun"></i> Sun</li>
+            <li class="mon">26°c <i class="far fa-sun"></i> Mon</li>
+          </ul>
+          <p>Weather forecast for <span id="new-city"> "City" </span></p>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

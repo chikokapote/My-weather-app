@@ -1,0 +1,87 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+.card {
+  border-color: #2f4362;
+  border-width: 3px;
+  background-color: #fdc1c1;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.image {
+  height: 200px;
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.form-control {
+  margin: 0 auto;
+  width: 400px;
+  border-width: 2px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  border-color: #2f4362;
+}
+button {
+  margin-top: 15px;
+  color: #ffffff;
+  background-color: #2f4362;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #212529;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+h1:hover {
+  color: #2f4362;
+  font-weight: bold;
+}
+h2 {
+  font-size: 26px;
+}
+h2:hover {
+  color: #2f4362;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+}
+li {
+  color: #2f4362;
+  text-align: center;
+}
+li:hover {
+  font-weight: bolder;
+  color: #212529;
+}
+.thur {
+  font-size: 22px;
+}
+.fri {
+  font-size: 22px;
+}
+.sat {
+  font-size: 22px;
+}
+.sun {
+  font-size: 20px;
+}
+.mon {
+  font-size: 20px;
+}
+p {
+  font-weight: 600;
+  font-size: 24px;
+}
